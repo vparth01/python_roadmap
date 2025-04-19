@@ -1,6 +1,4 @@
 Product,Price,Stock
-A,9.99,100
-B,14.99,50
-C,7.99,150
-D,24.99,30
-E,4.99,200
+Widget A,10.99,50
+Widget B,14.99,20
+Widget,7.99,100
