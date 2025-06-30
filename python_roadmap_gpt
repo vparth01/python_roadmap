@@ -1,0 +1,204 @@
+✅ Phase 1 (Weeks 1–2): Python Foundations – "Write Code, Not Chaos"
+YouTube Tutorials:
+●	Python for Data Engineers in 1 HOUR! Full Course
+ A comprehensive tutorial covering Python basics tailored for data engineering tasks.
+
+●	Python Basics For Data Engineers!
+ An introduction to Python fundamentals with a focus on data engineering applications.
+
+GitHub Projects:
+●	Python for Data Engineering
+ This repository contains code used in a Python for Data Engineering course, covering various data engineering tasks using Python.
+
+●	Beginner Data Engineering Project - Batch Edition
+ A beginner-friendly project that demonstrates how to run a data pipeline, providing practical experience in batch data processing.
+
+________________________________________
+🔧 Phase 2 (Weeks 3–5): Real Python for Data Engineers – "Glue Code, Not Glue Traps"
+YouTube Tutorials:
+●	How I Use Python as a Data Engineer
+ Insights into practical Python scripting for data engineering tasks
+
+●	Python For Data Engineering - Playlist
+ A series covering Python scripting, file handling, and automation relevant to data engineering
+
+GitHub Projects:
+●	Python Project for Data Engineering
+ A project that involves acquiring and processing information on the world's largest banks, providing hands-on experience in data extraction and transformation
+
+●	My First Data Project
+ A data project focusing on uploading, transforming, and loading data into an Azure PostgreSQL database, utilizing Bash, Python, SQL, and GitHub Workflows
+
+________________________________________
+⚡ Phase 3 (Weeks 6–9): PySpark – "Parallel Processing, Minus the Pain"
+YouTube Tutorials:
+●	PySpark Tutorial | Full Course (From Zero to Pro!)
+ An in-depth tutorial covering Spark architecture, RDDs, DataFrames, and Spark SQL
+
+●	PySpark Tutorial for Beginners | Edureka - Playlist
+ A series of tutorials introducing PySpark basics and advanced concepts
+
+GitHub Projects:
+●	PySpark Examples Repository
+ Contains Jupyter notebooks with hands-on examples to practice PySpark concepts
+
+●	PySpark Example Project
+ A 'best practices' approach to writing ETL jobs using Apache Spark and its Python APIs
+
+________________________________________
+🚀 Phase 4 (Weeks 10–16): Build Realistic End-to-End Pipelines – "Mock Prod, Not Mock Tests"
+YouTube Tutorials:
+●	Building End To End ETL Pipeline Using AirFlow And Astro
+ Learn how to orchestrate ETL workflows using Apache Airflo.
+
+●	Build and optimize a data lake on Amazon S3 (STG323)
+ Understand the process of building and optimizing data lakes on AWS S.
+
+GitHub Projects:
+●	Data Engineering Portfolio by erictreacy
+ Showcases projects on ETL pipelines, SQL optimization, cloud data processing, and orchestration with Apache Airflo.
+
+●	Data Engineering Projects by AuFeld
+ Includes projects on data modeling, ETL pipelines, data lakes, and infrastructure configuration on AW.
+
+●	ETL Pipeline with Airflow and BigQuery
+ An end-to-end data engineering project featuring Apache Airflow for orchestrating a data pipeline with BigQuery and dbt for transformation.
+
+________________________________________
+🧠 Practice Tips
+●	*Daily Coding Practice: Dedicate at least 30 minutes daily to solve problems on platforms like LeetCode or HackerRank, focusing on Python and SL.
+
+●	*Project Documentation: Maintain a GitHub repository documenting your projects, including code, README files, and sample outpus.
+
+●	*Code Reviews: Regularly review and refactor your code to improve readability and efficieny.
+
+Feel free to reach out if you need further assistance or guidance on any of these resources. Happy coding!
+
+
+Python & PySpark Skill-Building Roadmap for Data Engineering
+________________________________________
+Phase 1 (Weeks 1–2): Python Foundations – "Write Code, Not Chaos"
+🔧 Focus Areas
+●	Variables, Loops, Functions, Data Structures (Lists, Dicts, Sets)
+
+●	File I/O, Exception Handling, Logging
+
+●	OOP basics
+
+●	Virtual environments, pip, and requirements.txt
+
+🎯 Projects
+●	Build a basic log parser that reads log files and summarizes error types.
+
+●	Create a CLI CSV cleaner that handles nulls, whitespace, and formatting.
+
+🎥 YouTube Tutorials
+●	Python for Beginners – Programming with Mosh
+
+●	Real Python – Beginner to Intermediate Concepts
+
+💻 GitHub Repos
+●	Python 100 Days of Code
+
+●	Awesome Python Scripts
+
+________________________________________
+Phase 2 (Weeks 3–5): Real Python for Data Engineers – "Glue Code, Not Glue Traps"
+🔧 Focus Areas
+●	Working with Pandas and NumPy
+
+●	Writing modular, testable code
+
+●	File parsing (JSON, CSV, XML)
+
+●	Writing to and reading from databases
+
+●	Scheduling basics with cron and Airflow DAG structure
+
+🎯 Projects
+●	Build a Data Profiler script that reads a CSV and outputs stats (null %, dtype, unique count).
+
+●	Write a schema comparator that compares two datasets and logs the difference.
+
+🎥 YouTube Tutorials
+●	Data Analysis with Pandas – Corey Schafer
+
+●	Database Programming with Python – Tech with Tim
+
+💻 GitHub Repos
+●	Pandas Examples
+
+●	Awesome Data Engineering Projects
+
+________________________________________
+Phase 3 (Weeks 6–9): PySpark – "Parallel Processing, Minus the Pain"
+🔧 Focus Areas
+●	RDDs vs DataFrames, SparkSession, UDFs
+
+●	Spark SQL, Caching, Partitioning
+
+●	Joins, Aggregations, Window Functions
+
+●	Handling skewed data, file formats (Parquet, Avro)
+
+🎯 Projects
+●	Ingest a mock sales dataset, perform aggregations, and output daily summaries.
+
+●	Write a script to deduplicate and optimize file sizes using compression & repartitioning.
+
+🎥 YouTube Tutorials
+●	PySpark Full Course – Simplilearn
+
+●	Databricks PySpark Essentials Playlist
+
+💻 GitHub Repos
+●	PySpark Examples
+
+●	Big Data Examples – PySpark
+
+________________________________________
+Phase 4 (Weeks 10–16): Build Realistic End-to-End Pipelines – "Mock Prod, Not Mock Tests"
+🔧 Focus Areas
+●	S3 interaction with Boto3
+
+●	Using AWS Glue (ETL Jobs + Catalog), Redshift, Athena
+
+●	Automating with Airflow DAGs
+
+●	Jenkins for CI/CD
+
+●	Data quality checks, alerting, logging
+
+🎯 Final Projects
+●	Mini Datalake:
+
+○	Ingest → Clean → Store in S3 → Query via Athena/Redshift
+
+○	Schedule with Airflow + Monitor with CloudWatch
+
+●	Pipeline Health Monitor:
+
+○	Build an Airflow DAG that logs stats, validates record counts, and sends Slack/email alerts.
+
+🎥 YouTube Tutorials
+●	AWS Glue + PySpark – Hands-On (Stephane Maarek)
+
+●	Data Engineering Project Series – Data With Danny
+
+💻 GitHub Repos
+●	AWS Glue Examples
+
+●	End-to-End Data Pipeline
+
+________________________________________
+🔥 Practice Tips
+●	Focus on small daily tasks (1–2 hours) instead of long weekend slogs.
+
+●	Push everything to GitHub — even failed experiments show progress.
+
+●	Build a portfolio README with 3–4 projects and short blurbs for each.
+
+●	Practice writing PySpark logic on LeetCode + StrataScratch for SQL/DataFrame challenges.
+
+________________________________________
+
